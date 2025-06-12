@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.get("/")
 def index():
-    return "lone wolf capital webhook"
+    return "- lone wolf capital webhook -"
 
 
 if __name__ == "__main__":
